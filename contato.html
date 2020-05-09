@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ragnar Crossfit</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+
+    <style>
+        body{
+        background-image: url('img/fundo4.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        }
+    </style>
+
+    <body>
+        <header>
+            <img class="logo" src="img/logo.png" alt="ragnar logo">
+        <nav>
+            <ul class="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="horarios.html">Horários</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        </header>
+        
+        <div class="corpo">
+            <h1 style="text-align: center;">CONTATO</h1>
+        <form method="post" action="mailto:gmiranda@unigranrio.br">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1"><i class="icon ion-md-person"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Nome Completo" aria-label="Username" aria-describedby="basic-addon1" maxlength="50" autofocus>
+              </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon2"><i class="icon ion-md-mail"></i></span>
+                </div>
+                <input type="email" class="form-control" placeholder="Email" aria-label="email" aria-describedby="basic-addon2" maxlength="40" autofocus>
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon3"><i class="icon ion-md-phone-portrait"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="(DDD) + Telefone" aria-label="email" aria-describedby="basic-addon3" maxlength="15" autofocus>
+            </div>
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-lg">Mensagem</span>
+                </div>
+                <textarea class="form-control" aria-label="With textarea" rows="5" autofocus></textarea>
+              </div><br>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button type="reset" class="btn btn-primary">Limpar Campos</button>
+        </form>
+        </div>
+
+        <div class="rodape">
+            <address>
+                Web Design: Giovanni Miranda<br>
+                &copy; Todos os direitos reservados 2020
+        </div>
+
+    </body>
+</html>
