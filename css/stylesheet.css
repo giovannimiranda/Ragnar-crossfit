@@ -156,4 +156,5 @@ hr {
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
     height: 70px;
+    position: fixed;
 }
